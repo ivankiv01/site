@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Шапка для сайта</title>
 </head>
 <body>
@@ -17,20 +17,19 @@
         // разметка для логотипа
 
         <div class="logo">
-            <a href="index.html">
+            <a href="index.php">
                 <span class="use">USE</span>-<span class="web">WEB</span>.ru
             </a>
-            <p>Разработка- это просто</p>
+            <p>NIX solutions</p>
         </div>
 
         // разметка для нашего меню
 
         <div class="top-menu">
             <ul>
-                <li><a class="clickMenu" href="#">Темы</a></li>
-                <li><a href="#">Видеоуроки</a></li>
-                <li><a href="#">Об авторе</a></li>
-                <li><a href="#">Обратная связь</a></li>
+                <li><a class="clickMenu" href="#">Уроки</a></li>
+                <li><a href="#">Урок 1</a></li>
+                <li><a href="#">Урок 2</a></li>
             </ul>
         </div>
 
