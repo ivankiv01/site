@@ -16,10 +16,21 @@
 }
 
 body {
-    background-image: url("/img/background.jpg");}
+    background-image: url("/img/background.jpg");
+}
 
 .use {
-    color: yellow;}
+    color: yellow;
+}
 
 .web {
-    color: purple;}
+    color: purple;
+}
+
+.zaz{
+    color: black;
+}
+
+.zazi{
+    color: black !important;
+}
