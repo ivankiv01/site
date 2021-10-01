@@ -3,18 +3,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Шапка для сайта</title>
 </head>
 <body>
 
 <div id="block-body">
 
-    //  в тегах header прописана наша шапка
+   <!-- //  в тегах header прописана наша шапка-->
 
     <header>
 
-        // разметка для логотипа
+<!--        // разметка для логотипа-->
 
         <div class="logo">
             <a href="index.php">
@@ -23,7 +23,7 @@
             <p>NIX solutions</p>
         </div>
 
-        // разметка для нашего меню
+<!--        // разметка для нашего меню-->
 
         <div class="top-menu">
             <ul>
@@ -33,7 +33,7 @@
             </ul>
         </div>
 
-        // блок с авторизацией
+<!--        // блок с авторизацией-->
 
         <div class="block-top-auth">
             <p><a href="#">Вход</a></p>
