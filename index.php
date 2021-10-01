@@ -18,7 +18,7 @@
 
         <div class="logo">
             <a href="index.php">
-                <span class="use">USE</span>-<span class="web">WEB</span>.ru
+                <span class="use">LOVE</span>-<span class="web">PHP</span>
             </a>
             <p>NIX solutions</p>
         </div>
