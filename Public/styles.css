@@ -16,7 +16,7 @@
 }
 
 body {
-    background-image: url("/img/background.jpg");
+    background-image: url("img/background.jpg");
 }
 
 .use {
@@ -33,4 +33,29 @@ body {
 
 .zazi{
     color: black !important;
+}
+
+
+table {
+    margin: 0 auto;
+    background: #ffffff; /* Цвет фона таблицы */
+    color: black; /* Цвет текста */
+    border-spacing: 12px; /* Расстояние между ячейками */
+    border: 2px solid black;
+}
+
+table td {
+    border: 1px solid black;
+    font-size: 1em;
+    padding: 10px 10px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    height: 20px;
+}
+.multiplication-table{
+    margin-top: 20px;
+    margin-bottom: 50px;
 }

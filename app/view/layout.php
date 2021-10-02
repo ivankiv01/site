@@ -25,7 +25,7 @@
                             Выберете урок
                         </button>
                         <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
-                            <li><a class="dropdown-item" href="#">Урок 1</a></li>
+                            <li><a class="dropdown-item" href="#table1">Урок 1</a></li>
                             <li><a class="dropdown-item" href="#">Урок 2</a></li>
                             <li><a class="dropdown-item" href="#">Урок 3</a></li>
                             <li>
@@ -46,38 +46,17 @@
 </header>
 
 <main>
-    <div class="container">
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
 
+    <div class="container multiplication-table" id="table1">
+        <?php
+        require '../app/view/Table.php';
+        ?>
     </div>
+
 </main>
-<div class="container">
-    <footer class="py-3 my-4">
+
+<div class="container footer">
+    <footer class="py-3 my-4" >
         <ul class="nav justify-content-center pb-3 mb-3">
             <li class="nav-item"><a href="#" class="nav-link px-2 zazi">На фонтан</a></li>
             <li class="nav-item"><a href="#" class="nav-link px-2 zazi">На рошана</a></li>
@@ -88,7 +67,6 @@
         <p class="text-center zaz">© 2021 Company, Inc</p>
     </footer>
 </div>
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
