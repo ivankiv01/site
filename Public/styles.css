@@ -37,7 +37,7 @@ body {
 
 
 table {
-    margin: 0 auto;
+    margin: auto;
     background: #ffffff; /* Цвет фона таблицы */
     color: black; /* Цвет текста */
     border-spacing: 12px; /* Расстояние между ячейками */
@@ -48,10 +48,18 @@ table td {
     border: 1px solid black;
     font-size: 1em;
     padding: 10px 10px;
-}
 
+}
+.task_1{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 1.2em;
+    color: white;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: black;
+}
 .footer {
-    position: absolute;
+    position: center;
     bottom: 0;
     height: 20px;
 }

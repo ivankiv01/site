@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>NIX Assassin</title>
+    <title>NIX Education</title>
 </head>
 <body>
 <header class="bg-dark text-white flex-wrap">
@@ -25,13 +25,11 @@
                             Выберете урок
                         </button>
                         <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
-                            <li><a class="dropdown-item" href="#table1">Урок 1</a></li>
+                            <li><a class="dropdown-item" href="#">Урок 1</a></li>
+                            <li><hr class="dropdown-divider"></li>
                             <li><a class="dropdown-item" href="#">Урок 2</a></li>
+                            <li><hr class="dropdown-divider"></li>
                             <li><a class="dropdown-item" href="#">Урок 3</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Катка в Доту</a></li>
                         </ul>
                     </div>
                 </div>
@@ -46,23 +44,31 @@
 </header>
 
 <main>
-
-    <div class="container multiplication-table" id="table1">
-        <?php
-        require '../app/view/Table.php';
-        ?>
+    <div class="container task_1">
+        <h2>1.	Настроить среду разработки.</h2>
+        <p>- Операционная система Linux (рекомендуем)</p>
+        <p>- Установить IDEA (рекомендуем PhpStorm)</p>
+        <p>- Установить nginx и php-fpm</p>
+        <p>- Создать свой первый сайт, который отобразит приветствие “Hello, NIX Education”</p>
+        <br>
+        <h2>2.	Работа с репозиторием.</h2>
+        <p>-Зарегистрироваться на https://github.com/.</p>
+        <p>-Установить Git, на локальной машине.</p>
+        <p>-Создать свой первый репозиторий и залить на него свой первый проект.</p>
+        <br>
+        <h2>3.   Создать простую структуру сайта, добавить меню .</h2>
+        <p>-Сделать commit изменений, и push в ваш репозиторий.</p>
     </div>
-
 </main>
 
 <div class="container footer">
     <footer class="py-3 my-4" >
         <ul class="nav justify-content-center pb-3 mb-3">
-            <li class="nav-item"><a href="#" class="nav-link px-2 zazi">На фонтан</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 zazi">На рошана</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 zazi">Mid or fid</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 zazi">Лавка</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 zazi">Нам нужны варды</a></li>
+            <li class="nav-item"><a href="/" class="nav-link px-2 zazi">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 zazi">Урок 1</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 zazi">Урок 2</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 zazi">Урок 3</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 zazi">Вход/Регистрация</a></li>
         </ul>
         <p class="text-center zaz">© 2021 Company, Inc</p>
     </footer>
